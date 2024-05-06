@@ -556,6 +556,22 @@ video {
   left: 7rem;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
+.-z-20 {
+  z-index: -20;
+}
+
+.-z-\[1\] {
+  z-index: -1;
+}
+
+.-z-\[0\] {
+  z-index: 0;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -586,6 +602,22 @@ video {
 
 .mr-3 {
   margin-right: 0.75rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.-ml-3 {
+  margin-left: -0.75rem;
+}
+
+.-ml-10 {
+  margin-left: -2.5rem;
+}
+
+.-ml-7 {
+  margin-left: -1.75rem;
 }
 
 .block {
@@ -653,18 +685,14 @@ video {
   flex-basis: 66.666667%;
 }
 
-.-translate-x-5 {
-  --tw-translate-x: -1.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .-translate-x-10 {
   --tw-translate-x: -2.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.cursor-pointer {
-  cursor: pointer;
+.-translate-x-5 {
+  --tw-translate-x: -1.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -981,16 +1009,32 @@ video {
   z-index: 30;
 }
 
-.hover\:-z-30:hover {
-  z-index: -30;
-}
-
-.hover\:-z-\[1\]:hover {
-  z-index: -1;
+.hover\:-z-20:hover {
+  z-index: -20;
 }
 
 .hover\:ml-0:hover {
   margin-left: 0px;
+}
+
+.hover\:-translate-x-10:hover {
+  --tw-translate-x: -2.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:-translate-x-2:hover {
+  --tw-translate-x: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:-translate-x-3:hover {
+  --tw-translate-x: -0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:-translate-x-5:hover {
+  --tw-translate-x: -1.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:bg-blue-400:hover {
@@ -1122,45 +1166,4 @@ video {
     font-size: 3rem;
     line-height: 1;
   }
-}
-
-.hover\:\[\&\:not\(first-of-type\)\]\:-ml-8:not(first-of-type):hover {
-  margin-left: -2rem;
-}
-
-.hover\:\[\&\:not\(last-of-type\)\]\:-ml-5:not(last-of-type):hover {
-  margin-left: -1.25rem;
-}
-
-.hover\:\[\&\:not\(last-of-type\)\]\:-ml-7:not(last-of-type):hover {
-  margin-left: -1.75rem;
-}
-
-.hover\:\[\&\:not\(last-of-type\)\]\:-ml-8:not(last-of-type):hover {
-  margin-left: -2rem;
-}
-
-.hover\:\[\&\:not\(last-of-type\)\]\:translate-x-\[10px\]:not(last-of-type):hover {
-  --tw-translate-x: 10px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:\[\&\:not\(last-of-type\)\]\:-translate-x-\[10px\]:not(last-of-type):hover {
-  --tw-translate-x: -10px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:\[\&\:not\(last-of-type\)\]\:-translate-x-10:not(last-of-type):hover {
-  --tw-translate-x: -2.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:\[\&\:not\(last-of-type\)\]\:-translate-x-5:not(last-of-type):hover {
-  --tw-translate-x: -1.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:\[\&\:not\(last-of-type\)\]\:-translate-x-3:not(last-of-type):hover {
-  --tw-translate-x: -0.75rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
